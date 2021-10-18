@@ -1,0 +1,11 @@
+@import 'logo';
+
+.header {
+  border-bottom: solid 1px #ececec;
+}
+
+.header-content {
+  @extend %container;
+  padding-top: 24px;
+  align-items: baseline;
+}

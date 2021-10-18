@@ -1,0 +1,9 @@
+@import './utils/variables';
+// @import './utils/placeholders';
+@import './components/header';
+
+body {
+  font-family: 'Roboto', 'Verdana', 'Tahoma';
+  background-color: $bg-color-frst;
+  letter-spacing: 0.03em;
+}
