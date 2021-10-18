@@ -5,15 +5,21 @@ $logo-color-scnd: #000;
 $logo-color-thrd: #fff;
 
 .logo {
-  @extend %line;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: $logo-color-scnd;
+  color: $logo-color-frst;
   width: 145px;
   height: 31px;
-  text-decoration: none;
+
+  &--header-color {
+    color: $logo-color-scnd;
+  }
+
+  &--footer-color {
+    color: $logo-color-thrd;
+  }
 }
