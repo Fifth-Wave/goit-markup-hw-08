@@ -13,37 +13,37 @@
 .our-team__list {
   @extend %box;
   margin-right: -30px;
+}
 
-  .item {
-    margin-right: 30px;
-    flex-basis: calc(100% / 4 - 30px);
+.team-member {
+  margin-right: 30px;
+  flex-basis: calc(100% / 4 - 30px);
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 
-    &__photo-capture {
-      padding-top: 30px;
-      background-color: $bg-color-frst;
+  &__photo-capture {
+    padding-top: 30px;
+    background-color: $bg-color-frst;
+  }
 
-      &--headings {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        text-align: center;
-        color: $text-color-basic;
-      }
+  &__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: $text-color-basic;
+  }
 
-      &--members {
-        margin-top: 10px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        text-align: center;
-        color: $text-color-secondary;
-      }
-    }
+  &__position {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: $text-color-secondary;
   }
 }

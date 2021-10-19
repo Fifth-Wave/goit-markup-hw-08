@@ -41,7 +41,7 @@
   }
 
   .projects &:hover,
-  .projects &:hover {
+  .projects &:focus {
     background: $accent-color;
     color: $text-color-third;
   }

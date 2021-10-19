@@ -2,7 +2,6 @@
 @import '../utils/_placeholders.scss';
 
 .social-links {
-  border-radius: 0px 0px 4px 4px;
   .our-team & {
     padding: 16px 32px 30px;
     background-color: $bg-color-frst;
@@ -14,7 +13,7 @@
   }
 }
 
-.social-links__item {
+.social-links__link {
   .our-team & {
     background-color: $bg-color-frst;
   }
@@ -29,27 +28,34 @@
   align-items: center;
   justify-content: center;
 
-  &__item {
-    @extend %box;
-    align-items: center;
-    justify-content: center;
-    height: 44px;
-    width: 44px;
-    border-radius: 50%;
-    fill: $icons-color;
+  border-radius: 0px 0px 4px 4px;
+}
 
-    transition-property: fill, background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.social-links__item {
+  @extend %box;
+  align-items: center;
+  justify-content: center;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+.social-links__link {
+  @extend %box;
+  align-items: center;
+  justify-content: center;
 
-    &:not(:last-child) {
-      margin-right: 10px;
-    }
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  fill: $icons-color;
 
-    &:hover,
-    &:focus {
-      background-color: $accent-color;
-      fill: $text-color-third;
-    }
+  transition-property: fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    fill: $text-color-third;
   }
 }

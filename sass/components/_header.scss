@@ -25,35 +25,31 @@
   @extend %box;
   margin-left: 93px;
   align-items: baseline;
-  text-decoration: none;
-  color: $text-color-basic;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-  .current {
-    color: $accent-color;
-  }
 
   &__item:not(:last-child) {
     margin-right: 50px;
   }
 
-  .link {
-    color: inherit;
+  &__link {
+    color: $text-color-basic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .link:hover,
-  .link:focus {
+  &__link:hover,
+  &__link:focus {
     color: $accent-color;
   }
+}
 
-  &__item.current::after {
+.navigation__item--current {
+  color: $accent-color;
+  &::after {
     content: '';
     display: block;
     max-width: 100%;
@@ -69,7 +65,7 @@
   margin-left: auto;
   align-items: baseline;
 
-  .link {
+  &__link {
     @extend %box;
     align-items: center;
     font-weight: 500;
@@ -89,8 +85,8 @@
     fill: currentColor;
   }
 
-  .link:hover,
-  .link:focus {
+  &__link:hover,
+  &__link:focus {
     color: $accent-color;
   }
 
