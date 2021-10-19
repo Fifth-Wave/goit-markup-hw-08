@@ -1,0 +1,55 @@
+@import '../utils/_variables.scss';
+@import '../utils/_placeholders.scss';
+
+.social-links {
+  border-radius: 0px 0px 4px 4px;
+  .our-team & {
+    padding: 16px 32px 30px;
+    background-color: $bg-color-frst;
+  }
+
+  .footer & {
+    padding: 0;
+    background-color: $bg-hero-footer-color;
+  }
+}
+
+.social-links__item {
+  .our-team & {
+    background-color: $bg-color-frst;
+  }
+
+  .footer & {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.social-links {
+  @extend %box;
+  align-items: center;
+  justify-content: center;
+
+  &__item {
+    @extend %box;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    fill: $icons-color;
+
+    transition-property: fill, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: $accent-color;
+      fill: $text-color-third;
+    }
+  }
+}

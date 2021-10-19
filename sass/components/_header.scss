@@ -1,11 +1,100 @@
 @import 'logo';
+@import '../utils/variables';
+@import '../utils/placeholders';
 
 .header {
+  padding-top: 24px;
   border-bottom: solid 1px #ececec;
 }
 
 .header-content {
   @extend %container;
-  padding-top: 24px;
+  @extend %box;
+
   align-items: baseline;
+}
+
+// -------------- NAVIGATION ------
+
+.nav-style {
+  @extend %box;
+  align-items: baseline;
+}
+
+.navigation {
+  @extend %box;
+  margin-left: 93px;
+  align-items: baseline;
+  text-decoration: none;
+  color: $text-color-basic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  .current {
+    color: $accent-color;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  .link {
+    color: inherit;
+  }
+
+  .link:hover,
+  .link:focus {
+    color: $accent-color;
+  }
+
+  &__item.current::after {
+    content: '';
+    display: block;
+    max-width: 100%;
+    height: 4px;
+    margin-top: 28px;
+    background-color: $accent-color;
+    border-radius: 2px;
+  }
+}
+
+.contacts-header {
+  @extend %box;
+  margin-left: auto;
+  align-items: baseline;
+
+  .link {
+    @extend %box;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $text-color-secondary;
+
+    transition-property: color, background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .envelope,
+  .smartphone {
+    margin-right: 10px;
+    fill: currentColor;
+  }
+
+  .link:hover,
+  .link:focus {
+    color: $accent-color;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
 }

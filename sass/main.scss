@@ -1,10 +1,14 @@
 @import './Base/reset';
-@import './utils/variables';
-// @import './utils/placeholders';
+@import './components/title';
 @import './components/header';
-
-body {
-  font-family: 'Roboto', 'Verdana', 'Tahoma';
-  background-color: $bg-color-frst;
-  letter-spacing: 0.03em;
-}
+@import './components/hero';
+@import './components/button';
+@import './components/benefits';
+@import './components/our-work';
+@import './components/team';
+@import './components/social-links';
+@import './components/clients';
+@import './components/footer';
+@import './components/modal';
+@import './components/filter-btn';
+@import './components/projects';

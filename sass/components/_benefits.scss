@@ -1,0 +1,50 @@
+@import '../utils/variables';
+@import '../utils/placeholders';
+
+.benefits {
+  @extend %section;
+}
+
+.benefits-content {
+  @extend %container;
+}
+
+.benefits-title {
+  @extend %visually-hidden;
+}
+
+.benefits__list {
+  @extend %box;
+  flex-wrap: wrap;
+  margin-right: -30px;
+
+  .item {
+    margin-right: 30px;
+    flex-basis: calc(100% / 4 - 30px);
+
+    &__icon {
+      max-height: 120px;
+      margin-bottom: 30px;
+      padding: 25px 100px;
+      background-color: $bg-color-secnd;
+      border-radius: 4px;
+    }
+
+    &__headings {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: $text-color-basic;
+    }
+
+    &__text {
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+      color: $text-color-secondary;
+    }
+  }
+}

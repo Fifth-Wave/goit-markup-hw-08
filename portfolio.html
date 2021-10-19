@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/main.min.css" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,28 +19,34 @@
 </head>
 
 <body>
-  <header class="header-content">
+  <header class="header">
     <!--навигация по сайту-->
-    <div class="container box">
-      <nav class="nav-style box">
-        <a class="logo line" href="./"><span class="logo-color">Web</span>Studio</a>
-        <ul class="nav-list list box">
-          <li class="item"><a class="link" href="./">Студия</a></li>
-          <li class="item current">
+    <div class="header-content">
+
+      <nav class="nav-style">
+        <a class="logo" href="./">Web<Studio class="logo--header-color">Studio</span></a>
+        <ul class="navigation">
+          <li class="navigation__item ">
+            <a class="link current" href="./">Студия</a>
+          </li>
+          <li class="navigation__item current">
             <a class="link" href="./portfolio.html">Портфолио</a>
           </li>
-          <li class="item"><a class="link" href="">Контакты</a></li>
+          <li class="navigation__item">
+            <a class="link" href="">Контакты</a>
+          </li>
         </ul>
       </nav>
-      <ul class="contacts-header list box">
-        <li class="item">
-          <a class="link box" href="mailto:info@devstudio.com">
+
+      <ul class="contacts-header">
+        <li class="contacts-header__item">
+          <a class="link" href="mailto:info@devstudio.com">
             <svg class="envelope" width="16" height="12">
               <use class="use" href="./images/icons.svg#envelope"></use>
             </svg>
             info@devstudio.com</a>
         </li>
-        <li class="item">
+        <li class="contacts-header__item">
           <a class="link" href="tel:+380961111111">
             <svg class="smartphone" width="16" height="12">
               <use class="use" href="./images/icons.svg#smartphone"></use>
@@ -48,35 +54,36 @@
             +38 096 111 11 11</a>
         </li>
       </ul>
+
     </div>
   </header>
   <main>
     <!-- projects section -->
 
-    <section class="projects section">
-      <div class="container">
+    <section class="projects">
+      <div class="projects-content">
         <!--  filter section -->
-        <ul class="btn-list list box">
+        <ul class="filter-btn">
           <li class="item">
-            <button class="filter-btn" type="button">Все</button>
+            <button class="button" type="button">Все</button>
           </li>
           <li class="item">
-            <button class="filter-btn" type="button">Веб-сайты</button>
+            <button class="button" type="button">Веб-сайты</button>
           </li>
           <li class="item">
-            <button class="filter-btn" type="button">Приложения</button>
+            <button class="button" type="button">Приложения</button>
           </li>
           <li class="item">
-            <button class="filter-btn" type="button">Дизайн</button>
+            <button class="button" type="button">Дизайн</button>
           </li>
           <li class="item">
-            <button class="filter-btn" type="button">Маркетинг</button>
+            <button class="button" type="button">Маркетинг</button>
           </li>
         </ul>
 
         <!--  cards  section -->
 
-        <ul class="card-set list box">
+        <ul class="card-set">
           <li class="item">
             <a class="card-set-link" href="">
               <div class="card-thumb">
@@ -256,10 +263,10 @@
       </div>
     </section>
   </main>
-  <footer class="footer-style">
-    <div class="container box">
+  <footer class="footer">
+    <div class="footer-content box">
       <div>
-        <a class="logo-footer" href="./"><span class="logo-color">Web</span>Studio</a>
+        <a class="logo" href="./">Web<Studio class="logo--footer-color">Studio</span></a>
         <address class="address-style">
           г. Киев, пр-т Леси Украинки, 26
         </address>
@@ -274,33 +281,33 @@
       </div>
       <div class="footer-social">
         <p class="footer-text">присоединяйтесь</p>
-        <ul class="social-links-list list box">
-          <li class="item">
-            <a class="social-links-item box" href="instagram.com">
+        <ul class="social-links">
+          <li class="social-links__item">
+            <a class="social-links__item--link box" href="instagram.com">
               <svg width="20" height="20">
                 <use href="./images/icons.svg#instagram"></use>
               </svg>
             </a>
           </li>
 
-          <li class="item">
-            <a class="social-links-item box" href="twitter.com">
+          <li class="social-links__item">
+            <a class="social-links__item--link box" href="twitter.com">
               <svg width="20" height="20">
                 <use href="./images/icons.svg#twitter"></use>
               </svg>
             </a>
           </li>
 
-          <li class="item">
-            <a class="social-links-item box" href="fb.com">
+          <li class="social-links__item">
+            <a class="social-links__item--link box" href="fb.com">
               <svg width="20" height="20">
                 <use href="./images/icons.svg#facebook"></use>
               </svg>
             </a>
           </li>
 
-          <li class="item">
-            <a class="social-links-item box" href="linkedin.com">
+          <li class="social-links__item">
+            <a class="social-links__list--item box" href="linkedin.com">
               <svg width="20" height="20">
                 <use href="./images/icons.svg#linkedin"></use>
               </svg>
@@ -311,12 +318,12 @@
       <div class="footer-form">
         <form name="mailing-form">
 
-          <label for="mailing" class="footer-form-lable">Подпишись на рассылку</label>
-          <div class="box" style="align-items: center;">
-            <div> <input name="email" type="email" placeholder="E-mail" class="footer-form-input" id="mailing">
+          <label for="mailing" class="mailing-form__lable">Подпишись на рассылку</label>
+          <div class="mailing-form___box" style="align-items: center;">
+            <div> <input name="email" type="email" placeholder="E-mail" class="mailing-form__input" id="mailing">
             </div>
-            <button type="submit" class="footer-button"> <span>Подписаться</span>
-              <svg width="24" height="24">
+            <button type="submit" class="button"> <span>Подписаться</span>
+              <svg width="24" height="24" style="margin-left: 10px;">
                 <use href="./images/icons.svg#send"></use>
               </svg>
             </button>
@@ -325,6 +332,7 @@
         </form>
       </div>
     </div>
+
   </footer>
 </body>
 
