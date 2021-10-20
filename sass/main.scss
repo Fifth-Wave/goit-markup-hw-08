@@ -1,4 +1,7 @@
-@import './Base/reset';
+@import './utils/variables';
+@import './utils/placeholders';
+@import './base/reset';
+@import './components/logo';
 @import './components/title';
 @import './components/header';
 @import './components/hero';

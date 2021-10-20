@@ -1,4 +1,30 @@
 @charset "UTF-8";
+.header-content, .nav-style, .navigation, .contacts-header, .contacts-header__link, .footer .button, .benefits__list, .our-work__list, .work-sample__text, .our-team__list, .social-links, .social-links__item, .social-links__link, .our-clients__list, .client__link, .footer-content, .mailing-form___box, .filter-btn, .projects .card-set {
+  display: flex;
+}
+
+.benefits, .our-team, .our-clients, .projects {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.header-content, .hero-content, .benefits-content, .our-work-content, .our-team-content, .our-clients-content, .footer-content, .projects-content {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.title--is-hidden, .benefits-title, .order-form__checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
 h1,
 h2,
 h3,
@@ -31,42 +57,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-.title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: #212121;
-  text-align: center;
-}
-
-.header-content, .nav-style, .navigation, .contacts-header, .contacts-header__link, .footer .button, .benefits__list, .our-work__list, .work-sample__text, .our-team__list, .social-links, .social-links__item, .social-links__link, .our-clients__list, .client__link, .footer-content, .mailing-form___box, .filter-btn, .projects .card-set {
-  display: flex;
-}
-
-.benefits, .our-team, .our-clients, .projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.header-content, .hero-content, .benefits-content, .our-work-content, .our-team-content, .our-clients-content, .footer-content, .projects-content {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.benefits-title, .order-form__checkbox {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
-
 .logo {
   font-family: Raleway;
   font-style: normal;
@@ -87,30 +77,14 @@ body {
   color: #fff;
 }
 
-.header-content, .nav-style, .navigation, .contacts-header, .contacts-header__link, .footer .button, .benefits__list, .our-work__list, .work-sample__text, .our-team__list, .social-links, .social-links__item, .social-links__link, .our-clients__list, .client__link, .footer-content, .mailing-form___box, .filter-btn, .projects .card-set {
-  display: flex;
-}
-
-.benefits, .our-team, .our-clients, .projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.header-content, .hero-content, .benefits-content, .our-work-content, .our-team-content, .our-clients-content, .footer-content, .projects-content {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.benefits-title, .order-form__checkbox {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
+.title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-align: center;
 }
 
 .header {
@@ -196,32 +170,6 @@ body {
   margin-right: 30px;
 }
 
-.header-content, .nav-style, .navigation, .contacts-header, .contacts-header__link, .footer .button, .benefits__list, .our-work__list, .work-sample__text, .our-team__list, .social-links, .social-links__item, .social-links__link, .our-clients__list, .client__link, .footer-content, .mailing-form___box, .filter-btn, .projects .card-set {
-  display: flex;
-}
-
-.benefits, .our-team, .our-clients, .projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.header-content, .hero-content, .benefits-content, .our-work-content, .our-team-content, .our-clients-content, .footer-content, .projects-content {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.benefits-title, .order-form__checkbox {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
-
 .hero {
   background-color: #2f303a;
   color: #ffffff;
@@ -287,32 +235,6 @@ body {
   color: #ffffff;
 }
 
-.header-content, .nav-style, .navigation, .contacts-header, .contacts-header__link, .footer .button, .benefits__list, .our-work__list, .work-sample__text, .our-team__list, .social-links, .social-links__item, .social-links__link, .our-clients__list, .client__link, .footer-content, .mailing-form___box, .filter-btn, .projects .card-set {
-  display: flex;
-}
-
-.benefits, .our-team, .our-clients, .projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.header-content, .hero-content, .benefits-content, .our-work-content, .our-team-content, .our-clients-content, .footer-content, .projects-content {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.benefits-title, .order-form__checkbox {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
-
 .benefits__list {
   flex-wrap: wrap;
   margin-right: -30px;
@@ -348,32 +270,6 @@ body {
   color: #757575;
 }
 
-.header-content, .nav-style, .navigation, .contacts-header, .contacts-header__link, .footer .button, .benefits__list, .our-work__list, .work-sample__text, .our-team__list, .social-links, .social-links__item, .social-links__link, .our-clients__list, .client__link, .footer-content, .mailing-form___box, .filter-btn, .projects .card-set {
-  display: flex;
-}
-
-.benefits, .our-team, .our-clients, .projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.header-content, .hero-content, .benefits-content, .our-work-content, .our-team-content, .our-clients-content, .footer-content, .projects-content {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.benefits-title, .order-form__checkbox {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
-
 .our-work {
   padding-bottom: 94px;
 }
@@ -405,32 +301,6 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
   text-transform: uppercase;
-}
-
-.header-content, .nav-style, .navigation, .contacts-header, .contacts-header__link, .footer .button, .benefits__list, .our-work__list, .work-sample__text, .our-team__list, .social-links, .social-links__item, .social-links__link, .our-clients__list, .client__link, .footer-content, .mailing-form___box, .filter-btn, .projects .card-set {
-  display: flex;
-}
-
-.benefits, .our-team, .our-clients, .projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.header-content, .hero-content, .benefits-content, .our-work-content, .our-team-content, .our-clients-content, .footer-content, .projects-content {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.benefits-title, .order-form__checkbox {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
 }
 
 .our-team {
@@ -472,32 +342,6 @@ body {
   color: #757575;
 }
 
-.header-content, .nav-style, .navigation, .contacts-header, .contacts-header__link, .footer .button, .benefits__list, .our-work__list, .work-sample__text, .our-team__list, .social-links, .social-links__item, .social-links__link, .our-clients__list, .client__link, .footer-content, .mailing-form___box, .filter-btn, .projects .card-set {
-  display: flex;
-}
-
-.benefits, .our-team, .our-clients, .projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.header-content, .hero-content, .benefits-content, .our-work-content, .our-team-content, .our-clients-content, .footer-content, .projects-content {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.benefits-title, .order-form__checkbox {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
-
 .our-team .social-links {
   padding: 16px 32px 30px;
   background-color: #ffffff;
@@ -514,6 +358,7 @@ body {
 
 .footer .social-links__link {
   background-color: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
 }
 
 .social-links {
@@ -548,32 +393,6 @@ body {
   fill: #ffffff;
 }
 
-.header-content, .nav-style, .navigation, .contacts-header, .contacts-header__link, .footer .button, .benefits__list, .our-work__list, .work-sample__text, .our-team__list, .social-links, .social-links__item, .social-links__link, .our-clients__list, .client__link, .footer-content, .mailing-form___box, .filter-btn, .projects .card-set {
-  display: flex;
-}
-
-.benefits, .our-team, .our-clients, .projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.header-content, .hero-content, .benefits-content, .our-work-content, .our-team-content, .our-clients-content, .footer-content, .projects-content {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.benefits-title, .order-form__checkbox {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
-
 .our-clients__list {
   margin-top: 50px;
   margin-right: -30px;
@@ -605,36 +424,14 @@ body {
   border-color: #2196f3;
 }
 
-.header-content, .nav-style, .navigation, .contacts-header, .contacts-header__link, .footer .button, .benefits__list, .our-work__list, .work-sample__text, .our-team__list, .social-links, .social-links__item, .social-links__link, .our-clients__list, .client__link, .footer-content, .mailing-form___box, .filter-btn, .projects .card-set {
-  display: flex;
-}
-
-.benefits, .our-team, .our-clients, .projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.header-content, .hero-content, .benefits-content, .our-work-content, .our-team-content, .our-clients-content, .footer-content, .projects-content {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.benefits-title, .order-form__checkbox {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
-
 .footer {
   padding: 60px 0;
   background-color: #2f303a;
   color: #ffffff;
+}
+
+.footer-content {
+  align-items: baseline;
 }
 
 .address-style {
@@ -706,32 +503,6 @@ body {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-}
-
-.header-content, .nav-style, .navigation, .contacts-header, .contacts-header__link, .footer .button, .benefits__list, .our-work__list, .work-sample__text, .our-team__list, .social-links, .social-links__item, .social-links__link, .our-clients__list, .client__link, .footer-content, .mailing-form___box, .filter-btn, .projects .card-set {
-  display: flex;
-}
-
-.benefits, .our-team, .our-clients, .projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.header-content, .hero-content, .benefits-content, .our-work-content, .our-team-content, .our-clients-content, .footer-content, .projects-content {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.benefits-title, .order-form__checkbox {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
 }
 
 .backdrop.is-hidden {
@@ -876,7 +647,7 @@ body {
   height: 15px;
   border: 2px solid #000;
   border-radius: 2px;
-  fill: #fff;
+  fill: #ffffff;
 }
 
 .order-form__checkbox:checked ~ .order-form__check-icon {
@@ -895,32 +666,6 @@ body {
   outline-color: #2196f3;
 }
 
-.header-content, .nav-style, .navigation, .contacts-header, .contacts-header__link, .footer .button, .benefits__list, .our-work__list, .work-sample__text, .our-team__list, .social-links, .social-links__item, .social-links__link, .our-clients__list, .client__link, .footer-content, .mailing-form___box, .filter-btn, .projects .card-set {
-  display: flex;
-}
-
-.benefits, .our-team, .our-clients, .projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.header-content, .hero-content, .benefits-content, .our-work-content, .our-team-content, .our-clients-content, .footer-content, .projects-content {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.benefits-title, .order-form__checkbox {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
-
 .filter-btn {
   justify-content: center;
   margin-bottom: 20px;
@@ -930,30 +675,11 @@ body {
   margin-right: 8px;
 }
 
-.header-content, .nav-style, .navigation, .contacts-header, .contacts-header__link, .footer .button, .benefits__list, .our-work__list, .work-sample__text, .our-team__list, .social-links, .social-links__item, .social-links__link, .our-clients__list, .client__link, .footer-content, .mailing-form___box, .filter-btn, .projects .card-set {
-  display: flex;
-}
-
-.benefits, .our-team, .our-clients, .projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.header-content, .hero-content, .benefits-content, .our-work-content, .our-team-content, .our-clients-content, .footer-content, .projects-content {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.benefits-title, .order-form__checkbox {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
+.filter-btn--button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
 }
 
 .projects .card-set {

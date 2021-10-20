@@ -7,3 +7,7 @@
   color: $text-color-basic;
   text-align: center;
 }
+
+.title--is-hidden {
+  @extend %visually-hidden;
+}
