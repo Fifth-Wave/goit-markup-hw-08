@@ -49,6 +49,7 @@
 
 .navigation__item--current {
   color: $accent-color;
+  padding-bottom: 0;
   &::after {
     content: '';
     display: block;
