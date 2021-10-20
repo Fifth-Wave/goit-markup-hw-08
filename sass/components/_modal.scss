@@ -57,7 +57,7 @@
   }
 }
 
-.order-title {
+.order-form__title {
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
@@ -67,27 +67,27 @@
   color: $text-color-basic;
 }
 
-.order-text {
+.order-form__lable {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: $text-color-secondary;
 }
 
-.input-wrap {
+.order-form__input-wrap {
   position: relative;
   margin-top: 4px;
   margin-bottom: 10px;
 }
 
-.order-icon {
+.order-form__icon {
   position: absolute;
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
 }
 
-.order-input {
+.order-form__input {
   width: 448px;
   height: 40px;
 
@@ -95,18 +95,16 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
+  &:focus {
+    border: 1px solid $accent-color;
+    outline-color: $accent-color;
+  }
+  &:focus ~ .order-form__icon {
+    fill: $accent-color;
+  }
 }
 
-.order-input:focus {
-  border: 1px solid $accent-color;
-  outline-color: $accent-color;
-}
-
-.order-input:focus ~ .order-icon {
-  fill: $accent-color;
-}
-
-.order-comments {
+.order-form__comments {
   width: 448px;
   height: 120px;
   margin-top: 4px;
@@ -116,19 +114,19 @@
   border-radius: 4px;
   resize: none;
 
-    &:focus {
-        outline-color: $accent-color;
-    }
+  &:focus {
+    outline-color: $accent-color;
+  }
 
-    &::placeholder {
+  &::placeholder {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
-    }
+  }
 }
 
-.order-check {
+.order-form__check {
   position: relative;
   padding-left: 24px;
   font-size: 14px;
@@ -136,11 +134,11 @@
   letter-spacing: 0.03em;
 }
 
-.check-wrap {
+.order-form__check-wrap {
   text-align: center;
   margin-bottom: 30px;
 }
-.check-icon {
+.order-form__check-icon {
   position: absolute;
   top: 50%;
   left: 0;
@@ -152,22 +150,21 @@
   fill: $logo-color-thrd;
 }
 
-.order-checkbox {
+.order-form__checkbox {
   @extend %visually-hidden;
 
-  &:checked ~ .check-icon {
+  &:checked ~ .order-form__check-icon {
     background-color: $accent-color;
   }
 
-  &:focus ~ .check-icon {
+  &:focus ~ .order-form__check-icon {
     box-shadow: 0 0 0 0.1em #000;
   }
 }
 
 .condition-link {
   color: $accent-color;
-}
-
-.condition-link:focus {
-  outline-color: $accent-color;
+  &:focus {
+    outline-color: $accent-color;
+  }
 }

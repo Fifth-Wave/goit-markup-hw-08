@@ -56,7 +56,7 @@ body {
   margin: 0 auto;
 }
 
-.benefits-title, .order-checkbox {
+.benefits-title, .order-form__checkbox {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -102,7 +102,7 @@ body {
   margin: 0 auto;
 }
 
-.benefits-title, .order-checkbox {
+.benefits-title, .order-form__checkbox {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -211,7 +211,7 @@ body {
   margin: 0 auto;
 }
 
-.benefits-title, .order-checkbox {
+.benefits-title, .order-form__checkbox {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -302,7 +302,7 @@ body {
   margin: 0 auto;
 }
 
-.benefits-title, .order-checkbox {
+.benefits-title, .order-form__checkbox {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -363,7 +363,7 @@ body {
   margin: 0 auto;
 }
 
-.benefits-title, .order-checkbox {
+.benefits-title, .order-form__checkbox {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -422,7 +422,7 @@ body {
   margin: 0 auto;
 }
 
-.benefits-title, .order-checkbox {
+.benefits-title, .order-form__checkbox {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -487,7 +487,7 @@ body {
   margin: 0 auto;
 }
 
-.benefits-title, .order-checkbox {
+.benefits-title, .order-form__checkbox {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -563,7 +563,7 @@ body {
   margin: 0 auto;
 }
 
-.benefits-title, .order-checkbox {
+.benefits-title, .order-form__checkbox {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -620,7 +620,7 @@ body {
   margin: 0 auto;
 }
 
-.benefits-title, .order-checkbox {
+.benefits-title, .order-form__checkbox {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -723,7 +723,7 @@ body {
   margin: 0 auto;
 }
 
-.benefits-title, .order-checkbox {
+.benefits-title, .order-form__checkbox {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -784,7 +784,7 @@ body {
   fill: #2196f3;
 }
 
-.order-title {
+.order-form__title {
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
@@ -794,27 +794,27 @@ body {
   color: #212121;
 }
 
-.order-text {
+.order-form__lable {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: #757575;
 }
 
-.input-wrap {
+.order-form__input-wrap {
   position: relative;
   margin-top: 4px;
   margin-bottom: 10px;
 }
 
-.order-icon {
+.order-form__icon {
   position: absolute;
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
 }
 
-.order-input {
+.order-form__input {
   width: 448px;
   height: 40px;
   padding-left: 42px;
@@ -823,16 +823,16 @@ body {
   border-radius: 4px;
 }
 
-.order-input:focus {
+.order-form__input:focus {
   border: 1px solid #2196f3;
   outline-color: #2196f3;
 }
 
-.order-input:focus ~ .order-icon {
+.order-form__input:focus ~ .order-form__icon {
   fill: #2196f3;
 }
 
-.order-comments {
+.order-form__comments {
   width: 448px;
   height: 120px;
   margin-top: 4px;
@@ -843,18 +843,18 @@ body {
   resize: none;
 }
 
-.order-comments:focus {
+.order-form__comments:focus {
   outline-color: #2196f3;
 }
 
-.order-comments::placeholder {
+.order-form__comments::placeholder {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
-.order-check {
+.order-form__check {
   position: relative;
   padding-left: 24px;
   font-size: 14px;
@@ -862,12 +862,12 @@ body {
   letter-spacing: 0.03em;
 }
 
-.check-wrap {
+.order-form__check-wrap {
   text-align: center;
   margin-bottom: 30px;
 }
 
-.check-icon {
+.order-form__check-icon {
   position: absolute;
   top: 50%;
   left: 0;
@@ -879,11 +879,11 @@ body {
   fill: #fff;
 }
 
-.order-checkbox:checked ~ .check-icon {
+.order-form__checkbox:checked ~ .order-form__check-icon {
   background-color: #2196f3;
 }
 
-.order-checkbox:focus ~ .check-icon {
+.order-form__checkbox:focus ~ .order-form__check-icon {
   box-shadow: 0 0 0 0.1em #000;
 }
 
@@ -910,7 +910,7 @@ body {
   margin: 0 auto;
 }
 
-.benefits-title, .order-checkbox {
+.benefits-title, .order-form__checkbox {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -945,7 +945,7 @@ body {
   margin: 0 auto;
 }
 
-.benefits-title, .order-checkbox {
+.benefits-title, .order-form__checkbox {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -971,8 +971,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.product:focus,
-.product:hover {
+.product:focus, .product:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
