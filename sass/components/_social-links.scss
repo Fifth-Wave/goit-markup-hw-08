@@ -1,31 +1,7 @@
 .social-links {
-  .our-team & {
-    padding: 16px 32px 30px;
-    background-color: $bg-color-frst;
-  }
-
-  .footer & {
-    padding: 0;
-    background-color: $bg-hero-footer-color;
-  }
-}
-
-.social-links__link {
-  .our-team & {
-    background-color: $bg-color-frst;
-  }
-
-  .footer & {
-    background-color: rgba(255, 255, 255, 0.1);
-    fill: $text-color-third;
-  }
-}
-
-.social-links {
   @extend %box;
   align-items: center;
   justify-content: center;
-
   border-radius: 0px 0px 4px 4px;
 }
 

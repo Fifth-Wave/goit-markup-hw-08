@@ -1,5 +1,5 @@
 .button {
-  margin-top: 30px;
+  // margin-top: 30px;
   font-weight: 700;
   font-size: 16px;
   text-align: center;
@@ -21,26 +21,26 @@
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 
-  .footer & {
-    @extend %box;
-    margin-top: 0;
-    margin-left: 10px;
-    align-items: center;
-    justify-content: center;
-    fill: $text-color-third;
-  }
+  // .footer & {
+  // @extend %box;
+  // margin-top: 0;
+  // margin-left: 10px;
+  // align-items: center;
+  // justify-content: center;
+  // fill: $text-color-third;
+  // }
 
-  .projects & {
-    width: 100%;
-    padding: 6px 22px;
-    margin: 0;
-    background-color: $bg-color-secnd;
-    color: $text-color-basic;
-  }
+  // .projects & {
+  //   width: 100%;
+  //   padding: 6px 22px;
+  //   margin: 0;
+  //   background-color: $bg-color-secnd;
+  //   color: $text-color-basic;
+  // }
 
-  .projects &:hover,
-  .projects &:focus {
-    background: $accent-color;
-    color: $text-color-third;
-  }
+  // .projects &:hover,
+  // .projects &:focus {
+  //   background: $accent-color;
+  //   color: $text-color-third;
+  // }
 }

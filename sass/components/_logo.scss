@@ -3,11 +3,13 @@ $logo-color-scnd: #000;
 $logo-color-thrd: #fff;
 
 .logo {
+  // @extend %box;
+  // align-items: center;
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.1666;
   letter-spacing: 0.03em;
   color: $logo-color-frst;
   width: 145px;
@@ -19,5 +21,10 @@ $logo-color-thrd: #fff;
 
   &--footer-color {
     color: $logo-color-thrd;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.19;
   }
 }
