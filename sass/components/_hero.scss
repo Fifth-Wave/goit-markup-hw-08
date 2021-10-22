@@ -29,7 +29,10 @@
   line-height: 1.62;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  //   width: 696px;
-  //   font-size: 44px;
-  //   line-height: 1.36;
+
+  @media screen and (min-width: 1200px) {
+    max-width: 696px;
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }

@@ -3,8 +3,6 @@ $logo-color-scnd: #000;
 $logo-color-thrd: #fff;
 
 .logo {
-  // @extend %box;
-  // align-items: center;
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -12,6 +10,7 @@ $logo-color-thrd: #fff;
   line-height: 1.1666;
   letter-spacing: 0.03em;
   color: $logo-color-frst;
+  padding: 0;
   width: 145px;
   height: 31px;
 
