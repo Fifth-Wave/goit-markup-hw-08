@@ -12,6 +12,11 @@
     flex-wrap: wrap;
     margin-right: -30px;
   }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: -30px;
+  }
 }
 
 .benefits {
@@ -52,6 +57,16 @@
     &__item {
       margin-right: 30px;
       flex-basis: calc(100% / 2 - 30px);
+    }
+    &__item:not(:last-child) {
+      margin-bottom: 0;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    &__item {
+      margin-right: 30px;
+      margin-bottom: 0;
+      flex-basis: calc(100% - 30px);
     }
   }
 }

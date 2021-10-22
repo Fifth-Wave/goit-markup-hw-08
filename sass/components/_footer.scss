@@ -6,9 +6,29 @@
 
 .footer-content {
   @extend %container;
-  // @extend %box;
-  // align-items: baseline;
+
   text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: baseline;
+    text-align: left;
+  }
+}
+
+.footer-logo-social-wrap {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-left: 76px;
+    padding-right: 89px;
+    padding-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 0;
+  }
 }
 
 .address-style {
@@ -35,7 +55,13 @@
 
 .footer-social {
   padding: 60px 0;
-  // padding-left: 70px;
+
+  @media screen and (min-width: 768px) {
+    padding: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-left: 70px;
+  }
 }
 
 .footer-social__text {
@@ -56,14 +82,19 @@
   }
 }
 
-// .footer-form {
-//   // padding-left: 93px;
-// }
+@media screen and (min-width: 1200px) {
+  .footer-form {
+    padding-left: 93px;
+  }
+}
 
 .mailing-form___box {
-  // @extend %box;
   margin-top: 20px;
-  // align-items: center;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .mailing-form__lable {
@@ -100,4 +131,9 @@
   align-items: center;
   justify-content: center;
   fill: $text-color-third;
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+    margin-left: 12px;
+  }
 }

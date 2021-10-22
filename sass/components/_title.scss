@@ -7,14 +7,19 @@
   color: $text-color-basic;
   text-align: center;
 
-  @media screen and (min-widt: 1200px) {
+  @media screen and (min-width: 1200px) {
     font-size: 36px;
   }
 }
 
 .title--margin {
   margin-bottom: 30px;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
 }
+
 .title--is-hidden {
   @extend %visually-hidden;
 }
