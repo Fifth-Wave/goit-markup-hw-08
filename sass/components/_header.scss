@@ -1,14 +1,14 @@
 .header {
   border-bottom: solid 1px #ececec;
 
-  @media screen and (min-width: 766px) {
+  @media screen and (min-width: 768px) {
   }
 }
 
 .header-content {
   @extend %container;
 
-  @media screen and (min-width: 766px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;
   }
@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: space-between;
 
-  @media screen and (min-width: 766px) {
+  @media screen and (min-width: 768px) {
     height: 80px;
     align-items: center;
     justify-content: center;
@@ -40,7 +40,7 @@
   display: none;
 }
 
-@media screen and (min-width: 766px) {
+@media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
   }
@@ -49,7 +49,7 @@
 .navigation {
   display: none;
 
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     margin-left: 88px;
     align-items: baseline;
@@ -93,7 +93,7 @@
 .contacts-header {
   display: none;
 
-  @media screen and (min-width: 766px) {
+  @media screen and (min-width: 768px) {
     display: block;
     align-self: center;
     margin-left: auto;

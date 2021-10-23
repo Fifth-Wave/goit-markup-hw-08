@@ -35,7 +35,14 @@
           <li class="navigation__item">
             <a class="navigation__link" href="">Контакты</a>
           </li>
+
         </ul>
+        <svg width="40" height="40" class="mobile-menu">
+          <use href="./images/icons.svg#mob_menu"></use>
+        </svg>
+        <svg width="40" height="40" class="mobile-close">
+          <use href="./images/icons.svg#mob_close"></use>
+        </svg>
       </nav>
 
       <ul class="contacts-header">
@@ -102,6 +109,7 @@
                 <h2 class="product__caption">Технокряк</h2>
                 <p class="product__text">Веб-сайт</p>
               </div>
+
             </a>
           </li>
           <li class="product">
@@ -264,65 +272,67 @@
     </section>
   </main>
   <footer class="footer">
-    <div class="footer-content box">
-      <div>
-        <a class="logo" href="./">Web<Studio class="logo--footer-color">Studio</span></a>
-        <address class="address-style">
-          г. Киев, пр-т Леси Украинки, 26
-        </address>
-        <ul class="contacts-footer list">
-          <li class="item">
-            <a class="contact-link-footer" href="mailto:info@example.com">info@example.com</a>
-          </li>
-          <li class="item">
-            <a class="contact-link-footer" href="tel:+380991111111">+38 099 111 11 11</a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-social">
-        <p class="footer-text">присоединяйтесь</p>
-        <ul class="social-links">
-          <li class="social-links__item">
-            <a class="social-links__link " href="instagram.com">
-              <svg width="20" height="20">
-                <use href="./images/icons.svg#instagram"></use>
-              </svg>
-            </a>
-          </li>
+    <div class="footer-content">
+      <div class="footer-logo-social-wrap">
+        <div>
+          <a class="logo" href="./">Web<Studio class="logo--footer-color">Studio</span></a>
+          <address class="address-style">
+            г. Киев, пр-т Леси Украинки, 26
+          </address>
+          <ul class="contacts-footer">
+            <li class="contacts-footer__item">
+              <a class="contact-footer__link" href="mailto:info@example.com">info@example.com</a>
+            </li>
+            <li class="contacts-footer__item">
+              <a class="contact-footer__link" href="tel:+380991111111">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <p class="footer-social__text">присоединяйтесь</p>
+          <ul class="social-links footer-social--social-links">
+            <li class="social-links__item">
+              <a class="social-links__link" href="instagram.com">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
 
-          <li class="social-links__item">
-            <a class="social-links__link" href="twitter.com">
-              <svg width="20" height="20">
-                <use href="./images/icons.svg#twitter"></use>
-              </svg>
-            </a>
-          </li>
+            <li class="social-links__item">
+              <a class="social-links__link" href="twitter.com">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
 
-          <li class="social-links__item">
-            <a class="social-links__link" href="fb.com">
-              <svg width="20" height="20">
-                <use href="./images/icons.svg#facebook"></use>
-              </svg>
-            </a>
-          </li>
+            <li class="social-links__item">
+              <a class="social-links__link" href="fb.com">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
 
-          <li class="social-links__item">
-            <a class="social-links__link" href="linkedin.com">
-              <svg width="20" height="20">
-                <use href="./images/icons.svg#linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+            <li class="social-links__item">
+              <a class="social-links__link" href="linkedin.com">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="footer-form">
         <form name="mailing-form">
 
           <label for="mailing" class="mailing-form__lable">Подпишись на рассылку</label>
-          <div class="mailing-form___box" style="align-items: center;">
+          <div class="mailing-form___box">
             <div> <input name="email" type="email" placeholder="E-mail" class="mailing-form__input" id="mailing">
             </div>
-            <button type="submit" class="button"> <span>Подписаться</span>
+            <button type="submit" class="button button--mailing-form"> <span>Подписаться</span>
               <svg width="24" height="24" style="margin-left: 10px;">
                 <use href="./images/icons.svg#send"></use>
               </svg>

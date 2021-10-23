@@ -1,16 +1,38 @@
 .filter-btn {
   @extend %box;
   justify-content: center;
-  margin-bottom: 20px;
+
+  flex-wrap: wrap;
+  justify-content: start;
+  margin: -8px -8px -8px;
+  margin-bottom: 40px;
+
+  &__item {
+    margin: 8px;
+  }
 
   &__item:not(:last-child) {
     margin-right: 8px;
   }
+
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+  }
 }
 
 .filter-btn--button {
+  width: 100%;
+
+  padding: 6px 22px;
+  color: $text-color-basic;
+  background-color: $bg-color-secnd;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
   letter-spacing: 0.03em;
+  &:hover,
+  &:focus {
+    color: $text-color-third;
+    background-color: $accent-color;
+  }
 }
