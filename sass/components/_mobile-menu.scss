@@ -78,6 +78,7 @@
 .social-links-mini {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .social-links-mini__item:not(:last-child) {
   margin-right: 20px;

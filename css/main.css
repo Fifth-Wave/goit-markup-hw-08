@@ -54,7 +54,8 @@ p {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 ul {
@@ -417,7 +418,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .our-work {
-    display: flex;
+    display: block;
     padding-bottom: 94px;
   }
 }
@@ -1010,6 +1011,7 @@ body {
 
 .product__link {
   padding: 0;
+  width: 100%;
 }
 
 .product__thumb {
@@ -1142,6 +1144,7 @@ body {
 .social-links-mini {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .social-links-mini__item:not(:last-child) {
