@@ -77,11 +77,22 @@
 }
 .social-links-mini {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-wrap: wrap;
 }
-.social-links-mini__item:not(:last-child) {
-  margin-right: 20px;
+
+.social-links-mini__item {
+  display: flex;
+  align-items: center;
+
+  &:not(:last-child)::after {
+    content: '';
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 22px;
+    width: 1px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+  }
 }
 .social-links-mini__link {
   font-weight: 500;
@@ -90,7 +101,3 @@
   letter-spacing: 0.02em;
   color: $accent-color;
 }
-
-// .js-open-menu {
-//   transform: translateX(-100%);
-// }

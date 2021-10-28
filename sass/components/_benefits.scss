@@ -54,6 +54,9 @@
     color: $text-color-secondary;
   }
   @media screen and (min-width: 768px) {
+    &__headings {
+      text-align: left;
+    }
     &__item {
       margin-right: 30px;
       flex-basis: calc(100% / 2 - 30px);
@@ -63,6 +66,9 @@
     }
   }
   @media screen and (min-width: 1200px) {
+    &__headings {
+      text-align: left;
+    }
     &__item {
       margin-right: 30px;
       margin-bottom: 0;

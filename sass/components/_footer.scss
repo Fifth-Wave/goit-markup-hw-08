@@ -2,6 +2,11 @@
   @extend %section;
   background-color: $bg-hero-footer-color;
   color: $text-color-third;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .footer-content {

@@ -122,12 +122,39 @@
     &__link:focus {
       color: $accent-color;
     }
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-self: center;
+    margin-left: auto;
 
-    @media screen and (min-width: 1200px) {
+    &__item:not(:last-child) {
+      margin-right: 30px;
+    }
+
+    &__link {
       display: flex;
-      &__item:not(:last-child) {
-        margin-right: 30px;
-      }
+      align-items: center;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      color: $text-color-secondary;
+
+      transition-property: color, background-color, box-shadow;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    & .envelope,
+    & .smartphone {
+      margin-right: 10px;
+      fill: currentColor;
+    }
+
+    &__link:hover,
+    &__link:focus {
+      color: $accent-color;
     }
   }
 }
